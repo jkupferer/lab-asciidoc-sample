@@ -1,1 +1,8 @@
+:example_user: %example_user%
+:example_password: %example_password%
+
 This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+
+User: {example_user}
+
+Password: {example_password}
