@@ -1,8 +1,17 @@
-:example_user: %example_user%
-:example_password: %example_password%
+// Set asciidoc attributes for workshop variables.
+:GUID: %GUID%
+:random_string: %random_string%
 
 This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
 
-User: {example_user}
+== User Info Data
 
-Password: {example_password}
+------------------------------
+GUID: {GUID}
+random_string: {random_string}
+------------------------------
+
+== User Info Messages
+
+[%hardbreaks]
+%provision_messages%

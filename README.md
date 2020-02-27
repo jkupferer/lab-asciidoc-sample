@@ -23,8 +23,9 @@ oc start-build ${NAME} --from-dir=. --follow
 ```
 cat >workshop-vars.json <<EOF
 {
-  "example_user": "alice",
-  "example_password": "p4ssw0rd"
+  "GUID": "abcde",
+  "random_string": "p4ssw0rd",
+  "user_info_messages": "hello\nworld\n"
 }
 EOF
 ```
