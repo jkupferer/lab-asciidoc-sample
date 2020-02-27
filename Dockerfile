@@ -1,3 +1,5 @@
+# This Dockerfile is optional.
+# The workshop-dashboard image supports source-to-image (s2i) build.
 FROM quay.io/openshifthomeroom/workshop-dashboard:5.0.0
 
 USER root
