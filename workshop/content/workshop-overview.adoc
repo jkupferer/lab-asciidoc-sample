@@ -6,6 +6,7 @@ This is the initial landing page for your workshop. Include in this page a descr
 
 == User Info Data
 
+[subs="attributes"]
 ------------------------------
 GUID: {GUID}
 random_string: {random_string}
